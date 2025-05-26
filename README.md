@@ -1,30 +1,30 @@
-# MarketX
 # 🛒 Digital Marketplace Smart Contract
 
-This Solidity smart contract allows users to **list and purchase digital items** using an **ERC20 token** (e.g., USDC). It is ideal for selling digital assets like eBooks, music, art, or software with metadata stored on IPFS or other decentralized storage.
+This is a Solidity smart contract for a **Basic Digital Marketplace** that allows users to **list and purchase digital items** using an **ERC20 token** (e.g., USDC). Metadata for digital items can be stored on **IPFS** or similar decentralized storage.
 
 ---
 
 ## 📦 Features
 
-- 🔐 Owner-only deployment
-- 📤 List items with name, metadata URI, and price
-- 💰 Purchase items using ERC20 tokens (configurable)
-- 🔍 Track purchases and access metadata
-- ✅ Emits events for listings and sales
+- 👨‍💼 Owner-deployed contract
+- 📤 List digital items with name, metadata URI, and token price
+- 💳 Buy items using an ERC20 token
+- 🔎 Access item metadata and track ownership
+- 📈 Emits events for listing and purchases
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Deployment Info
 
-- Solidity ^0.8.0
-- OpenZeppelin Contracts (ERC20 & Ownable)
-- IPFS-compatible metadata URIs
-- Ethereum or any EVM-compatible chain
+- **Network:** Ethereum Sepolia Testnet  
+- **Deployed With:** Remix IDE  
+- **Transaction Hash:**  
+  `0xfcebadef0e62d7c3228b2a8118f4fac5595dd82d67ace54a78ebf05cd0f62fea`  
+  [🔗 View on Etherscan](https://sepolia.etherscan.io/tx/0xfcebadef0e62d7c3228b2a8118f4fac5595dd82d67ace54a78ebf05cd0f62fea)
 
 ---
 
-## 🧠 Smart Contract Overview
+## 🧠 Contract Overview
 
 ### Constructor
 
